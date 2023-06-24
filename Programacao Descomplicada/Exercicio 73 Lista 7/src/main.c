@@ -24,7 +24,7 @@ int main(){
     if(menu<0||menu>4){
         printf("\nNúmero Inválido!\n");
     }
-    printf("Escolha função:\n0 - Sair\n1 - Ler dados\n2 - Determinar idade média\n3 - Determinar maior idade\n4 - Mulheres loiras de olho azul, de 18 a 35 anos\n\n");
+    printf("\nEscolha função:\n0 - Sair\n1 - Ler dados\n2 - Determinar idade média\n3 - Determinar maior idade\n4 - Mulheres loiras de olho azul, de 18 a 35 anos\n\n");
     scanf("%d", &menu);
     }while(menu<0||menu>4);
 
